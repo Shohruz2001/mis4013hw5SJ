@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Import ECharts Library -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body>
+    <h1>JavaScript Functions Demonstration</h1>
+
+    <!-- ECharts Section -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    
+    <!-- Form Validation Section -->
+    <form id="userForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <button type="button" onclick="validateForm()">Submit</button>
+        <p id="formMessage"></p>
+    </form>
+
+    <!-- Dynamic Content Section -->
+    <button onclick="loadContent()">Load More Content</button>
+    <div id="content"></div>
+
+    <!-- Image Carousel Section -->
+    <div id="carousel">
+        <img id="carouselImage" src="image1.jpg" alt="Carousel Image" width="300">
+        <button onclick="nextImage()">Next Image</button>
+    </div>
+
+    <!-- Theme Toggle Section -->
+    <button onclick="toggleTheme()">Toggle Theme</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
