@@ -1,0 +1,20 @@
+/* Default Light Theme */
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+/* Additional styling */
+#carousel {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+}
